@@ -7,7 +7,7 @@ const config = merge(commonConfig, {
     devtool: "source-map",
 
     devServer: {
-        port: 8080,
+        port: 3000,
     }
 })
 
