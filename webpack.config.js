@@ -14,6 +14,12 @@ const config = {
           }),
     ],
 
+    resolve: {
+        alias: {
+            '@': path.resolve(dirname, 'src')
+        }
+    },
+
     module: {
         rules: [
             {
