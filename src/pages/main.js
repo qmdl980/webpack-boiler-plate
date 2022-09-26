@@ -1,4 +1,4 @@
-import Component from "@/core/Component.js";
+import Component from "@/core/Component";
 
 export default class MainPage extends Component{
     template(){

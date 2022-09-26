@@ -15,9 +15,11 @@ const config = {
     ],
 
     resolve: {
+        
         alias: {
             '@': path.resolve(dirname, 'src')
-        }
+        },
+        extensions: ['.js', '.jsx', '.json', '.css', '.scss']
     },
 
     module: {
